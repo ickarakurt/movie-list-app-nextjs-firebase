@@ -18,7 +18,6 @@ export default class addMovie extends React.Component{
             if(response.data.Search){
                this.setState({results : response.data.Search});
             }
-            console.log(this.state.results);
         })  
         .catch( error => {
             console.log(error);
