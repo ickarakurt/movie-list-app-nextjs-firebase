@@ -7,7 +7,7 @@ const FixedMenuLayout = () => (
             <Container>
                 <Menu.Item><Link href="/"><a>Login</a></Link></Menu.Item>
                 <Menu.Item><Link href="/register"><a>Register</a></Link></Menu.Item>
-                <Menu.Item><Link href="/about"><a>Add Movie</a></Link></Menu.Item>
+                <Menu.Item><Link href="/addmovie"><a>Add Movie</a></Link></Menu.Item>
                 <Menu.Item><Link href="/about"><a>My List</a></Link></Menu.Item>
 
             </Container>
